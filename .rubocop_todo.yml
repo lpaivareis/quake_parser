@@ -1,0 +1,10 @@
+Lint/EmptyFile:
+  Exclude:
+    - 'Gemfile'
+
+Metrics/AbcSize:
+  Max: 10
+
+Performance/Count:
+  Exclude:
+    - 'quake_parser.rb'
